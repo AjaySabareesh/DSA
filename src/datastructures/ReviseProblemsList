@@ -1,0 +1,36 @@
+https://leetcode.com/problems/water-and-jug-problem/solutions/83715/math-solution-java-solution/
+https://leetcode.ca/2019-01-09-1136-Parallel-Courses/
+https://leetcode.com/problems/delete-nodes-and-return-forest/description/
+
+https://leetcode.ca/2016-08-17-261-Graph-Valid-Tree/ , For a undirected Graph to   be a valid tree: No cycles , no of edges = vertices-1
+https://leetcode.com/problems/search-a-2d-matrix/solutions/26220/don-t-treat-it-as-a-2d-matrix-just-treat-it-as-a-sorted-list/ , Here, from the 1st binary search, high will give the row to search for. If high<0, then not possible to find the element.based on that, do 2nd binary search
+    in 2d matrix of m*n
+    row index = mid/n
+    col index = mid%n
+https://leetcode.com/problems/reorganize-string/solutions/113440/java-solution-priorityqueue/
+
+https://leetcode.com/problems/detonate-the-maximum-bombs/description/
+https://leetcode.com/problems/number-of-valid-clock-times/solutions/2706336/c-simple-and-easy-to-understand-solution/
+https://leetcode.com/problems/diameter-of-binary-tree/description/
+
+https://leetcode.com/problems/add-one-row-to-tree/solutions/2473155/c-simple-explanation-bfs-commented-code/
+//Depth of node - node to root, Height of node - node to leaf
+
+https://leetcode.com/problems/find-eventual-safe-states/
+https://leetcode.com/problems/smallest-string-with-swaps/solutions/388055/java-union-find-priorityqueue-easy-to-understand/
+
+https://www.youtube.com/watch?v=S1IdB36gkJw
+https://leetcode.com/problems/balanced-binary-tree/submissions/1238279640/
+
+Trees revision post: https://leetcode.com/discuss/general-discussion/937307/iterative-recursive-dfs-bfs-tree-traversal-in-pre-post-levelorder-views
+
+https://leetcode.com/problems/repeated-substring-pattern/solutions/1694256/java-kmp-solution-with-explanation/
+
+https://leetcode.com/problems/rle-iterator/solutions/168294/java-straightforward-solution-o-n-time-o-1-space/
+https://leetcode.com/problems/detect-squares/solutions/1471958/c-java-python-2-approaches-using-hashmap-with-picture-clean-concise/
+
+https://leetcode.com/problems/missing-number/solutions/69795/java-solution-o-1-space-and-o-n-in-time/
+
+https://leetcode.com/discuss/interview-question/5039879/Google-Onsite-Interview
+
+https://leetcode.com/discuss/interview-question/4831503/Google-or-Questions/2289676

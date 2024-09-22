@@ -1,0 +1,117 @@
+tip : maximization or minimization problem - DP
+
+Step 1: Intuition building.
+    - recursive approach ,
+        - understand subproblems.
+
+Step 2: Recursion with Memoization.
+
+Step 3 : Top - Down approach.
+
+Step 4 : Bottom - Up approach.
+
+
+skills
+
+Time : skills
+
+T
+
+( time taken to learn a skill ) array : [2, 3, 5, 11, 4, 9, 4]
+
+indices as skill.
+
+T = 10 Units. '
+	8  3, 5, 11, 4, 9, 4
+	10 2, 3, 5, 11, 4, 9, 4
+		5 3, 5, 11, 4, 9, 4	1
+		8 3, 5, 11, 4, 9, 4
+		8 3, 5, 11, 4, 9, 4	+1
+		10 3, 5, 11, 4, 9, 4
+
+t<0 -1
+t=0||idx 0
+
+solve =  1+solve(idx+1, tar-num) + solve(idx+1, tar)
+
+
+
+2, 3, 5, 11, 4, 9, 4
+
+110.    idx = 3 , time = 5       -> max skills.
+
+001.    idx = 3 , time = 5
+
+
+get maximum number of skills in that time frame.
+
+
+-----------------------------------
+
+nth stairs. one step or two step.
+
+n = 5
+	4 	3
+	3,2	2,1
+
+sol(int n){
+    if(n<2)
+        return n;
+    if(dp[n] != null) return dp[n];
+
+    return dp[n] = sol(n-1) + sol(n-2);
+}
+
+
+class Solution {
+
+    ( int[] arr, int t){
+        if(t==0||arr.length==0){
+		return 0;
+	}
+        solve(0, arr, t);
+
+    }
+
+    array : [2, 3, 5, 11, 4, 9, 4]
+
+    1,1
+
+    Integer dp[][] = [n.len][time+1];
+
+    int solve(int idx, int[] arr, int time){
+        if(time < 0) return -1;
+        if(idx == arr.len) return 0;
+
+        if(dp[idx][time] != null)
+            return dp[idx][time];
+
+        //pick
+        int incl = 1 + solve(idx+1, arr, time-arr[idx]);
+
+        //excl
+        int excl = solve(idx+1, arr, time);
+
+        return dp[idx][time] = Math.max(incl, excl);
+    }
+
+dp[0][0]= 0;
+dp[i][j] = Math.max(dp[i-1][j], num > j  ?  0 : 1+dp[i-1][j-num[i]]);
+
+
+    func(){
+
+        // terminating cases
+
+        // pruning
+
+        // subcalls
+
+        return.
+    }
+
+}
+
+
+
+
